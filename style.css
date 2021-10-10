@@ -1,10 +1,7 @@
-.container {
-    height: 97.5vh;
-    width: 100%; 
+body {
     background-color: #D8F3C9;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 .sectionLeft {
     float: left;
@@ -62,7 +59,6 @@
 #sectionFooter {
     text-align: center;
     color: white;
-    padding: 8px;
     width: 99%;
     position: absolute; bottom: 0;
     animation: bgcolor infinite 20s;
