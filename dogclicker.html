@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maya Clicker v2</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head> 
+    <body>
+        <div class="container">
+            <div class = "sectionLeft"> <!---left section-->
+                <center>
+                    <div class = "dopamineContainer"> <!--score section-->
+                        <span id="dopamine">0</span> Dopamine <br>
+                        <span id="dopaminePerSecond">0</span> Dopamine Per Second <br>
+                    </div>
+                    <br>
+                    <div class ="dogContainer">
+                        <img id="dog" src="images/maya.png" height="256px" width="360px" onclick="addToDopamine(1)">
+                    </div>
+                    <div id="sectionFooter">
+                        <h3><button onclick="resetGame();">Reset Game</button> Maya Clicker V2 <button onclick="saveGame();">Save Game</button></h3>
+                    </div>
+                </center>
+            </div>
+            <div class = "sectionRight"> <!--right section-->
+                <table class="shopButton" onclick="buyPetPower(1)">
+                    <tr>
+                        <td id="image"><img src="images/dogpet.jpg"></td>
+                        <td id="nameAndCost">
+                            <p>Petting UwU</p>
+                            <p><span id="petPowerCost">15</span> dopamine</p>
+                        </td>
+                        <td id="amount"><span id="petPower">0</span></td>
+                    </tr>
+                </table> <!--end of pet power-->
+                <table class="shopButton" onclick="buyTreat(1)">
+                    <tr>
+                        <td id="image"><img src="images/dogtreat.jpg"></td>
+                        <td id="nameAndCost">
+                            <p>Treats :D</p>
+                            <p><span id="treatCost">50</span> dopamine</p>
+                        </td>
+                        <td id="amount"><span id="treat">0</span></td>
+                    </tr>
+                </table> <!--end of treats-->
+                <table class="shopButton" onclick="buyToys(1)">
+                    <tr>
+                        <td id="image"><img src="images/dogtoys.jpg"></td>
+                        <td id="nameAndCost">
+                            <p>Toys Nom :3</p>
+                            <p><span id="toysCost">100</span> dopamine</p>
+                        </td>
+                        <td id="amount"><span id="toys">0</span></td>
+                    </tr>
+                </table> <!--end of toys-->
+                <table class="shopButton" onclick="buyGrooming(1)">
+                    <tr>
+                        <td id="image"><img src="images/doggroom.jpg"></td>
+                        <td id="nameAndCost">
+                            <p>Groom- AHH!</p>
+                            <p><span id="groomingCost">500</span> dopamine</p>
+                        </td>
+                        <td id="amount"><span id="grooming">0</span></td>
+                    </tr>
+                </table> <!--end of grooming-->
+            </div>
+        </div>
+    </body>
+</html>

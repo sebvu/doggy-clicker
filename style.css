@@ -1,0 +1,102 @@
+.container {
+    height: 97.5vh;
+    width: 100%; 
+    background-color: #D8F3C9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sectionLeft {
+    float: left;
+    width: 75%;
+}
+.sectionRight {
+    float: right;
+    width: 25%;
+}
+.dopamineContainer {
+    background-color: #FFFFFF;
+    width: 30%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: Bradley Hand, cursive;
+}
+.dogContainer img { 
+    position: relative; 
+    transition: all .05s ease-in-out;
+}
+.dogContainer img:hover { 
+    transform: scale(1.10); 
+}
+.dogContainer img:active { 
+    transform: scale(0.99); 
+}
+.shopButton {
+    background-color: #B96A9A;
+    transition: all .1 ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+.shopButton:hover {
+    background-color: #d889b8;
+    transition: all .1s ease-in-out;
+}
+.shopButton #image {
+    width: 20%;
+}
+.shopButton img {
+    height: 125px;
+    width: 125px;
+}
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 30px;
+}
+.shopButton #amount {
+    font-size: 48px;
+    font-family: roboto;
+    width: 15%;
+}
+#sectionFooter {
+    text-align: center;
+    color: white;
+    padding: 8px;
+    width: 99%;
+    position: absolute; bottom: 0;
+    animation: bgcolor infinite 20s;
+}
+@keyframes bgcolor {
+    0%
+    {
+        background: #e74c3c;
+    }
+    20%
+    {
+        background: #2980b9;
+    }
+    
+    40%
+    {
+        background: #f1c40f;
+    }
+    
+    60%
+    {
+        background: #8e44ad;
+    }
+    
+    80%
+    {
+        background: #34495e;
+    }
+    
+    100%
+    {
+        background: #e74c3c;
+    }
+}
+
+
+
