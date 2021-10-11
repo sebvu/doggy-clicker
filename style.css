@@ -1,15 +1,13 @@
 body {
     background-color: #D8F3C9;
-    background-size: cover;
-    background-position: center;
 }
 .sectionLeft {
     float: left;
-    width: 75%;
+    width: 70%;
 }
 .sectionRight {
     float: right;
-    width: 25%;
+    width: 30%;
 }
 .dopamineContainer {
     background-color: #FFFFFF;
@@ -33,9 +31,9 @@ body {
 .shopButton {
     background-color: #B96A9A;
     transition: all .1 ease-in-out;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
 }
 .shopButton:hover {
     background-color: #d889b8;
@@ -45,8 +43,11 @@ body {
     width: 20%;
 }
 .shopButton img {
-    height: 125px;
-    width: 125px;
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 3px;
 }
 .shopButton #nameAndCost p:first-of-type {
     font-size: 30px;
@@ -57,8 +58,6 @@ body {
     width: 15%;
 }
 #sectionFooter {
-    text-align: center;
-    color: white;
     width: 99%;
     position: absolute; bottom: 0;
     animation: bgcolor infinite 20s;
